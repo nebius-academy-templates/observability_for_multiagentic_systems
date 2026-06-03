@@ -62,9 +62,7 @@ Expected output: `level-4-code-review`.
 
 ## 3. Add run tags to `main.py`
 
-Right now, `main.py` passes a `metadata` dict to the graph. Extend the config to also include tags so each scenario is easy to filter in LangSmith.
-
-Find the `config` dict inside the `run()` function and add a `tags` key:
+Create the `config` dict inside the `run()` function and add a `tags` key:
 
 ```python
 config = {
